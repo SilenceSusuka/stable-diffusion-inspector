@@ -1,6 +1,0 @@
-# Cloudflare Pages 配置
-# docs: https://developers.cloudflare.com/pages/platform/wrangler-toml/
-
-name = "stable-diffusion-inspector"
-pages_build_output_dir = "dist"
-compatibility_date = "2025-07-07"
