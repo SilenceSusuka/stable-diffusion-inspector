@@ -4,9 +4,3 @@
 name = "stable-diffusion-inspector"
 pages_build_output_dir = "dist"
 compatibility_date = "2025-07-07"
-
-[build]
-command = "npm run build:cf"
-
-[env.production]
-# 生产环境无需额外配置
