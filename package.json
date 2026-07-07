@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "cross-env VITE_COMMIT_HASH=$(git rev-parse --short HEAD) vite build",
+    "build:cf": "cross-env VITE_COMMIT_HASH=${CF_PAGES_COMMIT_SHA:-unknown} vite build",
     "preview": "vite preview"
   },
   "dependencies": {
